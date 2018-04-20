@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--親要素-->
+    <item
+        android:id="@+id/menuContextChild"
+        android:title="@string/menu_context_child" />
+    <item
+        android:id="@+id/menuContextParent"
+        android:title="@string/menu_context_parent" />
+    <item
+        android:id="@+id/menuContextDelete"
+        android:title="@string/menu_context_delete" />
+    <!--子要素-->
+    <item
+        android:id="@+id/menuContextChild_Change"
+        android:title="@string/menu_context_parent" />
+    <item
+        android:id="@+id/menuContextChild_Delete"
+        android:title="@string/menu_context_delete" />
+
+</menu>

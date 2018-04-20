@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_switching"
+        android:title="切り替え"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/switching_All"
+                android:title="すべて表示"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/switching_novel"
+                android:title="小説"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/switching_cartoon"
+                android:title="漫画"
+                app:showAsAction="never"/>
+
+        </menu>
+    </item>
+</menu>
